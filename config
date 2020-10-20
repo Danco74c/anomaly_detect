@@ -1,0 +1,7 @@
+[Elastic]
+ip = 172.16.50.131
+port = 9200
+
+[Model Service]
+ip = 172.16.50.250
+port = 8000
