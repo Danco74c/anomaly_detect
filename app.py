@@ -47,7 +47,7 @@ def queryElastic(ip,port):
         "query" : {
             "range" : {
                 "@timestamp" : {
-                    "gte" : "now-5s"
+                    "gte" : "now-30s"
                     }
                 }
             }
