@@ -1,0 +1,1 @@
+{"query": {"bool": {"must": [{"match_phrase": {"syslog_hostname": "{{ hostname }}"}},{"range" : {"@timestamp" : {"gte" : "now-30s"}}}]}   }}
